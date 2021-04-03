@@ -50,8 +50,8 @@ Hook up the phone to the Ag1170 (a: brown, b: white) and
 
 * pick up the handset to hear the dial tone (Wählton)
 * dial `0`, hang up and wait for 3 s for the phone to start ringing (Rufsignal)
-* dial '5' to hear "kein Anschluss unter dieser Nummer" (Hinweiston)
-* dial '6' to hear either the ringing tone (Freiton) or the busy signal (Besetztton), selected randomly
+* dial `5` to hear "kein Anschluss unter dieser Nummer" (Hinweiston)
+* dial `6` to hear either the ringing tone (Freiton) or the busy signal (Besetztton), selected randomly
 * be inactive for too long and get kicked off the line (Gassenbesetztton) and eventually disconnected
 
 Other multi-digit numbers are implemented, see code or UART output for details.
